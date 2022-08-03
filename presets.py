@@ -6,7 +6,8 @@ class Presets(object):
     ASK_PM_TEXT = "<b>Click the below button</b>"
     WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>I can help you get Movies/Series from</code> @request_movies_series_tbm. " \
                    "<code>Just Keep this message live Here</code>😉\n\n" \
-                   "<b> Please Save All The Files/Vedios To Cloud Or Forward To Friends And Delete Them From Bot. </b>"
+                   "<b> Please Save All The Files/Vedios To Cloud Or Forward To Friends And Delete Them From Bot. </b>\n"\
+                   "<b> Or Simply On The Auto-Delete Timer (Set to 1 Day) </b>"
     CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
     MSG_FOR_PIN = "<b>For getting medias from here..</b>\n\n🔛 <code>Please start</code> @{} <code>in PM\n\n" \
                   "Send the exact Movie name.\n\n🔊 I'll reply the file in PM if available in our channel !</code>"
