@@ -64,9 +64,7 @@ async def query_mgs(client: Bot, message: Message):
                             await client.copy_message(
                                 chat_id=message.from_user.id,
                                 from_chat_id=messages.chat.id,
-                                message_id=messages.message_id,
-                                caption=Config.GROUP_U_NAME+Presets.CAPTION_TEXT_DOC.format(media_name,
-                                                                                            media_format, file_size)
+                                message_id=messages.message_id
                             )
                         except FloodWait as e:
                             time.sleep(e.x)
@@ -102,8 +100,7 @@ async def query_mgs(client: Bot, message: Message):
                             await client.copy_message(
                                 chat_id=message.from_user.id,
                                 from_chat_id=messages.chat.id,
-                                message_id=messages.message_id,
-                                caption=Config.GROUP_U_NAME+Presets.CAPTION_TEXT_VID.format(media_name, file_size)
+                                message_id=messages.message_id
                             )
                         except FloodWait as e:
                             time.sleep(e.x)
